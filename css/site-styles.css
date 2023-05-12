@@ -1,6 +1,17 @@
+:root {
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+}
+
 .main-header {
     background-color: #121212;
     padding: 1rem 0;
     color: #ffffff;
-    border-bottom: solid 4px #FFB952;
+    border-bottom: solid 5px #FFB952;
+}
+
+.header-strapline {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #FFB952;
 }

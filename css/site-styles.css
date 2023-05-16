@@ -38,9 +38,11 @@
     .main-header {
         flex-direction: column-reverse;
     }
+
     .logo-block-text {
         text-align: center;
     }
+
     .logo-block {
         text-align: center;
         margin-bottom: 1.5rem;
@@ -56,9 +58,6 @@
         line-height: 0.75rem;
     }
 }
-
-
-
 
 .blockquote {
     padding: 1rem 3rem 2rem;
@@ -76,12 +75,10 @@
     margin: 2rem;
 }
 
-
 .anchor-container {
     border: 2px solid #FFB952;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
-
 
 .anchor-header {
     font-size: 1.3rem;
@@ -94,21 +91,49 @@
     padding-bottom: 0.75rem;
 }
 
-
 .list-group-item-light.list-group-item-action:hover,
 .list-group-item-light.list-group-item-action:focus {
     color: #ffffff;
     background-color: #134571 !important;
 }
 
-.footer {
+footer {
     color: #ffffff;
+    background-color: #121212;
 }
+
+footer .row {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0.75rem;
+    max-width: 1000px;
+    flex-direction: column;
+}
+
+
+footer .col {
+    margin-bottom: 1.5rem;
+
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        padding-left: 15rem !important;
+    }
+
+    footer .row {
+        flex-direction: row;
+    }
+
+    footer .col {
+        margin-bottom: 0;
+    }
+}
+
 
 .container-fluid {
     width: 90%;
 }
-
 
 h2 {
     padding-bottom: .75rem;
@@ -118,7 +143,6 @@ h2 {
     font-size: 1.3rem;
     line-height: 1.8rem;
     padding: 0.5rem 0;
-
 }
 
 .example-image {
@@ -127,12 +151,45 @@ h2 {
 }
 
 figcaption {
-margin-bottom: 2rem;
-font-style: italic;
+    margin-bottom: 2rem;
+    font-style: italic;
 }
 
 .main-content {
-
-max-width:1024px;
-
+    max-width: 1000px;
 }
+
+a.list-group-item {
+    padding: 1 1.25rem !important;
+}
+
+a.list-group-item:last-child {
+    border-bottom: 1px solid #cccccc !important;
+}
+
+
+.contact-text:last-child {
+    margin-top: 1rem;
+}
+
+.contact-text:last-child {
+    margin-top: 1rem;
+}
+
+.card-container {
+    display: inline-block;
+}
+
+.card-container:first-child {
+    margin-right: 3rem;
+}
+
+.card-block {
+    border: 2px solid #FFB952;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-container {
+        width: 90% !important;
+    }

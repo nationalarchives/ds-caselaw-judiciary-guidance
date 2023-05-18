@@ -197,23 +197,23 @@ a.list-group-item:last-child {
 
 
 a.group-primary::after {
-    content: url(../assets/images/down-chevron-blue.svg);
+    content: url(../assets/images/chevron-blue-closed.svg);
     display: inline-block;
     width: 20%;
     vertical-align: top;
     height: 1rem;
-  }
+}
 
-  a.group-primary:hover::after {
-    content: url(../assets/images/down-chevron-white.svg);
-  }
-  
-  a.group-primary.active::after {
-    content: url(../assets/images/down-chevron-white.svg);
-  }
+a.group-primary:hover::after {
+    content: url(../assets/images/chevron-white-open.svg);
+}
 
-  .side-nav-item-secondary {
-background-color: #efefef;
-border: none;
+a.group-primary:focus::after {
+    content: url(../assets/images/chevron-white-focus.svg);
+}
 
-  }
+.side-nav-item-secondary {
+    background-color: #efefef;
+    border: none;
+    padding-left: 1rem !important;
+}

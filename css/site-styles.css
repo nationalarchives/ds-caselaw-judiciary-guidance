@@ -194,3 +194,26 @@ a.list-group-item:last-child {
         width: 100% !important;
     }
 }
+
+
+a.group-primary::after {
+    content: url(/assets/images/down-chevron-blue.svg);
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    height: 1rem;
+  }
+
+  a.group-primary:hover::after {
+    content: url(/assets/images/down-chevron-white.svg);
+  }
+  
+  a.group-primary.active::after {
+    content: url(/assets/images/down-chevron-white.svg);
+  }
+
+  .side-nav-item-secondary {
+background-color: #efefef;
+border: none;
+
+  }

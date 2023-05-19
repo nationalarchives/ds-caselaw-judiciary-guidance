@@ -223,3 +223,9 @@ a.group-primary:focus::after {
 .sub-item {
     padding-left: 2rem !important;
 }
+
+span.example-text {
+    text-align: center !important;
+    font-size: 1.4rem;
+    color: #336600;
+}

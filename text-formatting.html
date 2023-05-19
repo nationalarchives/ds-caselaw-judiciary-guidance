@@ -57,8 +57,7 @@
                         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                             <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="rubric.html">Rubric</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="text-formatting.html">Text
-                                    formatting</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="text-formatting.html">Text formatting</a></li>
                             <li class="nav-item"><a class="nav-link" href="tables.html">Tables</a></li>
                             <li class="nav-item"><a class="nav-link" href="accessibility.html">Accessibility</a></li>
                         </ul>
@@ -77,7 +76,7 @@
 
                 <div class="alert alert-danger" role="alert" style="margin-top: 2rem;">
                     This website is currently under construction!
-                  </div>
+                </div>
                 <h1 class="mt-4">Front page formatting</h1>
                 <p class="intro">The front page of a judgment is where the majority of formmating issues can arise.</p>
 
@@ -86,6 +85,7 @@
                     <ul>
                         <li class="anchor-links"><a href="#headers">Headers and footers</a></li>
                         <li class="anchor-links"><a href="#crest">Court Crest / Court Details</a></li>
+                        <li class="anchor-links"><a href="#ncn">Neutral Citation Number</a></li>
                     </ul>
                 </nav>
 
@@ -95,13 +95,12 @@
                 <p>Any information vital to the judgment should therefore not be put solely in the header or footer.</p>
 
 
-                <p>Example <span><a href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/330">SSWP v AT [2022]
+                <p>Example: <span><a href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/330">SSWP v AT [2022]
                             UKUT 330 (AAC)</a></span></p>
-                <img class="example-image img-fluid" src="assets/images/header-example.png"
+                <img class="example-image img-fluid" src="assets/images/content/header-example.png"
                     alt="Judgment header example">
                 <figcaption>In this judgment, the neutral citation only appears in the header meaning it might not be
-                    visible in
-                    the html version. </figcaption>
+                    visible in the html version. </figcaption>
                 <p>The parser requires a neutral citation number in order to register a judgment
                     properly so this could also prevent the document from being processed.</p>
 
@@ -111,14 +110,44 @@
                     so will ensure the image appears in the html of the judgment. </p>
                 <p>Crest images should be on their own separate line in a judgment. Styling issues can occur if
                     positioned with text or other elements. </p>
-                <p>Example <span><a href="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2022/3269">: Global
+                <p>Example: <span><a href="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2022/3269">Global
                             Feedback Limited, R (on the application of)
                             v Secretary of State for Environment, Food and Rural Affairs [2022] EWHC 3269
                             (Admin)</a></span></p>
 
                 <p>If we look at the judgment in Word, we can see that the crest has been placed in the centre of the
-                    page,
-                    between the court and the case number: </p>
+                    page, between the court and the case number: </p>
+                <img class="example-image img-fluid" src="assets/images/content/crest-centred.png"
+                    alt="Judgment header example">
+                <figcaption>This Word document example shows that the court crest has been placed centrally within the
+                    surrounding text.</figcaption>
+                <p>The judgment cannot process this kind of position meaning that, when the judgment goes online, the
+                    positioning of all these elements goes awry:</p>
+                <img class="example-image img-fluid" src="assets/images/content/crest-left.png"
+                    alt="Judgment header example">
+                <figcaption>This example shows how the online version will format if the court crest logo is placed
+                    between the court and case number.</figcaption>
+
+
+                    <h3 class="mt-4" id="ncn">Neutral Citation Number</h3>
+                    <p>As mentioned earlier, the parser requires a neutral citation number in order to register a judgment. The NCN needs to be unique for each judgment, it must correspond to the right court and be correctly styled.</p>
+                        <p><b>NCNs should be styled as such:</b></p>
+                    <p><span class="example-text">[YEAR] COURT/TRIBUNAL number (Denomination*)</span></p>
+                    <p>Example: <span><a href="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2022/3269">Derani Karthikeya, R (on the application of) v 
+                        The Secretary of State for the Home Department [2022] EWHC 3212 (Admin)</a></span></p>
+                    
+
+
+
+
+
+
+
+
+
+
+
+                    
             </div>
         </div>
     </div>
@@ -130,8 +159,8 @@
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="https://caselaw.nationalarchives.gov.uk/"
                             class="nav-link p-0 text-muted">Find case law</a></li>
-                            <li class="nav-item mb-2"><a href="https://www.legislation.gov.uk/"
-                                class="nav-link p-0 text-muted">Transfer Digital Records (TDR)</a></li>
+                    <li class="nav-item mb-2"><a href="https://www.legislation.gov.uk/"
+                            class="nav-link p-0 text-muted">Transfer Digital Records (TDR)</a></li>
                     <li class="nav-item mb-2"><a href="https://www.legislation.gov.uk/"
                             class="nav-link p-0 text-muted">Legislation</a></li>
                     <li class="nav-item mb-2"><a href="https://www.judiciary.uk/"
@@ -142,8 +171,12 @@
             <div class="col">
                 <h5>Contact us</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2">Help with formatting your document<a href="mailto:JudgmentsHelpdesk@judiciary.uk" class="nav-link p-0 text-muted">JudgmentsHelpdesk@judiciary.uk</a></li>
-                    <li class="nav-item mb-2 contact-text">Help with uploading your document<a href="mailto:tdr@nationalarchives.gov.uk" class="nav-link p-0 text-muted">tdr@nationalarchives.gov.uk</a></li>
+                    <li class="nav-item mb-2">Help with formatting your document<a
+                            href="mailto:JudgmentsHelpdesk@judiciary.uk"
+                            class="nav-link p-0 text-muted">JudgmentsHelpdesk@judiciary.uk</a></li>
+                    <li class="nav-item mb-2 contact-text">Help with uploading your document<a
+                            href="mailto:tdr@nationalarchives.gov.uk"
+                            class="nav-link p-0 text-muted">tdr@nationalarchives.gov.uk</a></li>
                 </ul>
             </div>
         </div>

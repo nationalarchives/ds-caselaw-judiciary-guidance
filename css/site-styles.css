@@ -157,6 +157,7 @@ figcaption {
 
 .main-content {
     max-width: 900px;
+    padding-bottom: 4rem;
 }
 
 a.list-group-item {
@@ -228,4 +229,22 @@ span.example-text {
     text-align: center !important;
     font-size: 1.4rem;
     color: #336600;
+}
+
+
+.base-banner {
+background-color: #ffb952;
+padding: .7rem 1rem .3rem;
+text-align: center;
+}
+
+
+h5 a, h5 a:active, h5 a:visited {
+    text-decoration:underline;
+    color:#121212;
+}
+
+h5 a:hover {
+    text-decoration:none;
+    color:#121212;
 }

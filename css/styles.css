@@ -6865,9 +6865,7 @@ textarea.form-control-lg {
   border: 0 !important;
 }
 
-.border-top {
-  border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
-}
+
 
 .border-top-0 {
   border-top: 0 !important;
@@ -10586,7 +10584,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   #page-content-wrapper {
     min-width: 0;
     width: 100%;
-    padding-bottom: 4rem;
+    padding-bottom: 0;
   }
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;

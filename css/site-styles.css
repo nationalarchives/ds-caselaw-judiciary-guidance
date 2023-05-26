@@ -243,12 +243,22 @@ text-align: center;
 }
 
 
-h5 a, h5 a:active, h5 a:visited {
+.alert a, .alert a:active, .alert a:visited {
     text-decoration:underline;
     color:#121212;
 }
 
-h5 a:hover {
+.alert a:hover {
     text-decoration:none;
     color:#121212;
+}
+
+
+.alert {
+    background-color: #ffb952 !important;
+    border: 0;
+    color: #121212;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 0;
 }

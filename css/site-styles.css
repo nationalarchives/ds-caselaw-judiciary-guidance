@@ -230,9 +230,10 @@ a.group-primary:focus::after {
 }
 
 span.example-text {
-    text-align: center !important;
+
     font-size: 1.4rem;
     color: #336600;
+    text-align: center !important;
 }
 
 

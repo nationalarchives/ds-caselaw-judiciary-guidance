@@ -133,13 +133,31 @@
                 <p>If images need to be placed into a judgment, they must be in a web friendly format (we recommend PNG). This is
                     because other formats will not be registered by the parser and therefore not appear in the html.</p>
             
-                    <h3>Example of where to control indentation in Word</h3>
+                    <h3>Example of a linked Excel graph image</h3>
                     <p><a href="https://caselaw.nationalarchives.gov.uk/ewhc/tcc/2022/3275">Energy Works (Hull) Limited v MW High Tech Projects UK Limited & Anor [2022] EWHC 3275 (TCC)</a></p>
-                    <img class="example-image img-fluid" src="assets/images/content/"
-                    alt="">
-                    <figcaption>Write a caption.</figcaption>
+                 
+                    <p>In the judgment, the uploader has included a graph linked to excel. In Word, the graph appears as normal:</p>
 
 
+
+                    <img class="example-image img-fluid" src="assets/images/content/image-example-1.png"
+                    alt="An example of a linked Excel graph">
+                    <figcaption>Linking an Excel graph in Word seems like it displays correctly.</figcaption>
+
+                    <p>However, the parser has no way of retrieving the data from the linked spreadsheet and therefore cannot prevent the
+                        graph, meaning it appears like this:</p>
+                        <img class="example-image img-fluid" src="assets/images/content/image-example-2.png"
+                        alt="Example of a missing Excel graph image on a judgment">
+                        <figcaption>Linked graphs to Excel when uploaded do not render when parsed.</figcaption>
+
+                        <p>To fix this issue, the graph should be converted to a PNG image and then re-uploaded via TDR. The graph will then appear in the judgment.</p>
+                            <p>Before uploading, we recommend double checking how the images look in web view in Word, just to make sure the
+                                positioning will translate well to the html version.</p>
+                            Web view can be found in the bottom right hand corner of Word, by the zoom in zoom out buttons.</p>
+
+                            <img class="example-image img-fluid" src="assets/images/content/image-example-3.png"
+                            alt="Location of the Web View function in Word">
+                            <figcaption>Using the Web View in Word will give a better idea of how the document will be displayed online.</figcaption>
 
 
                     <div class="alert alert-info" role="alert">

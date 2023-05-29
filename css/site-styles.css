@@ -185,14 +185,17 @@ a.list-group-item:last-child {
 
 .card-container:first-child {
     margin-right: 3rem;
+    vertical-align: top;
 }
 
 .card-block {
     border: 2px solid #FFB952;
     margin-bottom: 2rem;
+    vertical-align: top;
+    min-width: fit-content;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1029px) {
     .card-container {
         width: 100% !important;
     }
@@ -272,6 +275,6 @@ em {
     font-style: normal;
 }
 
-h4 {
+h2, h4, h3 {
     padding-top: 1rem !important;
 }

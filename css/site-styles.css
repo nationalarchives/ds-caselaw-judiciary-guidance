@@ -217,7 +217,11 @@ a.group-primary:hover::after {
     content: url(../assets/images/chevron-white-open.svg);
 }
 
-a.group-primary:focus::after {
+a.group-primary[aria-expanded='true']::after {
+    content: url(../assets/images/chevron-blue-focus.svg);
+}
+
+a.group-primary:focus::after, a.group-primary[aria-expanded='true']:hover::after {
     content: url(../assets/images/chevron-white-focus.svg);
 }
 

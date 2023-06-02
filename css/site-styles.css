@@ -171,13 +171,15 @@ a.list-group-item:last-child {
 }
 
 
-.contact-text:last-child {
+.contact-text {
     margin-top: 1rem;
 }
 
-.contact-text:last-child {
-    margin-top: 1rem;
+
+.contact-text:first-child {
+    margin-top: 0;
 }
+
 
 .card-container {
     display: inline-block;

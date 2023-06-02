@@ -180,29 +180,10 @@ a.list-group-item:last-child {
     margin-top: 0;
 }
 
-
-.card-container {
-    display: inline-block;
-}
-
-.card-container:first-child {
-    margin-right: 3rem;
-    vertical-align: top;
-}
-
 .card-block {
     border: 2px solid #FFB952;
     margin-bottom: 2rem;
-    vertical-align: top;
-    min-width: fit-content;
 }
-
-@media only screen and (max-width: 1029px) {
-    .card-container {
-        width: 100% !important;
-    }
-}
-
 
 a.group-primary::after {
     content: url(../assets/images/chevron-blue-closed.svg);

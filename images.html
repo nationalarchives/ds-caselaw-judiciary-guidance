@@ -39,7 +39,7 @@
                     data-bs-toggle="collapse" href="#collapseFrontpage" aria-expanded="false">Front page formatting</a>
                 <div class="collapse" id="collapseFrontpage" style="side-nav-secondary">
                     <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
-                    href="headers_and_footers.html">Headers and Footers</a>
+                        href="headers_and_footers.html">Headers and Footers</a>
                     <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
                         href="court_crest_and_details.html">Court crest & court details</a>
                     <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
@@ -77,8 +77,13 @@
                     <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
                         href="indentation.html">Indentation</a>
                 </div>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3"
-                    href="accessibility.html">Accessibility</a>
+                <a class="list-group-item list-group-item-action group-primary list-group-item-light p-3 collapsed"
+                data-bs-toggle="collapse" href="#collapseAccessibility" aria-expanded="false">Accessibility</a>
+        
+                <div class="collapse" id="collapseAccessibility" style="side-nav-secondary">
+                  <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+                    href="alternative_text.html">Alternative text</a>
+                </div>
             </div>
         </div>
 
@@ -96,12 +101,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                             <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about_this_guidance.html">About this guidance</a></li>
-                            <li class="nav-item"><a class="nav-link" href="headers_and_footers.html">Headers and Footers</a></li>
-                            <li class="nav-item"><a class="nav-link" href="court_crest_and_details.html">Court crest and court details</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about_this_guidance.html">About this
+                                    guidance</a></li>
+                            <li class="nav-item"><a class="nav-link" href="headers_and_footers.html">Headers and
+                                    Footers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="court_crest_and_details.html">Court crest and
+                                    court details</a></li>
                             <li class="nav-item"><a class="nav-link" href="ncn.html">NCN</a></li>
                             <li class="nav-item"><a class="nav-link" href="parties.html">Parties</a></li>
-                            <li class="nav-item"><a class="nav-link" href="frubric_and_content_warnings.html">Rubric and Content warnings</a></li>
+                            <li class="nav-item"><a class="nav-link" href="frubric_and_content_warnings.html">Rubric and
+                                    Content warnings</a></li>
                             <li class="nav-item"><a class="nav-link" href="fonts.html">Fonts</a></li>
                             <li class="nav-item"><a class="nav-link" href="headings.html">Headings</a></li>
                             <li class="nav-item"><a class="nav-link" href="paragraphs.html">Paragraphs</a></li>
@@ -109,10 +118,11 @@
                             <li class="nav-item"><a class="nav-link active" href="images.html">Images</a></li>
                             <li class="nav-item"><a class="nav-link" href="tables.html">Tables</a></li>
                             <li class="nav-item"><a class="nav-link" href="redactions.html">Redactions</a></li>
-                            <li class="nav-item"><a class="nav-link" href="word_web_view.html">Using web view in Word</a></li>
+                            <li class="nav-item"><a class="nav-link" href="word_web_view.html">Using web view in
+                                    Word</a></li>
                             <li class="nav-item"><a class="nav-link" href="alignment.html">Alignment</a></li>
                             <li class="nav-item"><a class="nav-link" href="indentation.html">Indentation</a></li>
-                            <li class="nav-item"><a class="nav-link" href="accessibility.html">Accessibility</a></li>
+                            <li class="nav-item">a class="nav-link" href="alternative_text.html">Alternative text</a></li>
                         </ul>
                     </div>
                 </div>
@@ -130,40 +140,47 @@
 
                 <h1 class="mt-4">Image formatting</h1>
 
-                <p>If images need to be placed into a judgment, they must be in a web friendly format (we recommend PNG). This is
+                <p>If images need to be placed into a judgment, they must be in a web friendly format (we recommend
+                    PNG). This is
                     because other formats will not be registered by the parser and therefore not appear in the html.</p>
 
-                    <h4>Example of a linked Excel graph image</h4>
-                    <p><a href="https://caselaw.nationalarchives.gov.uk/ewhc/tcc/2022/3275">Energy Works (Hull) Limited v MW High Tech Projects UK Limited & Anor [2022] EWHC 3275 (TCC)</a></p>
+                <h4>Example of a linked Excel graph image</h4>
+                <p><a href="https://caselaw.nationalarchives.gov.uk/ewhc/tcc/2022/3275">Energy Works (Hull) Limited v MW
+                        High Tech Projects UK Limited & Anor [2022] EWHC 3275 (TCC)</a></p>
 
-                    <p>In the judgment, the uploader has included a graph linked to excel. In Word, the graph appears as normal:</p>
+                <p>In the judgment, the uploader has included a graph linked to excel. In Word, the graph appears as
+                    normal:</p>
 
 
 
-                    <img class="example-image img-fluid" src="assets/images/content/image-example-1.png"
+                <img class="example-image img-fluid" src="assets/images/content/image-example-1.png"
                     alt="An example of a linked Excel graph">
-                    <figcaption>Linking an Excel graph in Word seems like it displays correctly.</figcaption>
+                <figcaption>Linking an Excel graph in Word seems like it displays correctly.</figcaption>
 
-                    <p>However, the parser has no way of retrieving the data from the linked spreadsheet and therefore cannot prevent the
-                        graph, meaning it appears like this:</p>
-                        <img class="example-image img-fluid" src="assets/images/content/image-example-2.png"
-                        alt="Example of a missing Excel graph image on a judgment">
-                        <figcaption>Linked graphs to Excel when uploaded do not render when parsed.</figcaption>
+                <p>However, the parser has no way of retrieving the data from the linked spreadsheet and therefore
+                    cannot prevent the
+                    graph, meaning it appears like this:</p>
+                <img class="example-image img-fluid" src="assets/images/content/image-example-2.png"
+                    alt="Example of a missing Excel graph image on a judgment">
+                <figcaption>Linked graphs to Excel when uploaded do not render when parsed.</figcaption>
 
-                        <p>To fix this issue, the graph should be converted to a PNG image and then re-uploaded via TDR. The graph will then appear in the judgment.</p>
-                            <p>Before uploading, we recommend double checking how the images look in web view in Word, just to make sure the
-                                positioning will translate well to the html version.</p>
-                            Web view can be found in the bottom right hand corner of Word, by the zoom in zoom out buttons.</p>
+                <p>To fix this issue, the graph should be converted to a PNG image and then re-uploaded via TDR. The
+                    graph will then appear in the judgment.</p>
+                <p>Before uploading, we recommend double checking how the images look in web view in Word, just to make
+                    sure the
+                    positioning will translate well to the html version.</p>
+                Web view can be found in the bottom right hand corner of Word, by the zoom in zoom out buttons.</p>
 
-                            <img class="example-image img-fluid" src="assets/images/content/image-example-3.png"
-                            alt="Location of the Web View function in Word">
-                            <figcaption>Using the Web View in Word will give a better idea of how the document will be displayed online.</figcaption>
+                <img class="example-image img-fluid" src="assets/images/content/image-example-3.png"
+                    alt="Location of the Web View function in Word">
+                <figcaption>Using the Web View in Word will give a better idea of how the document will be displayed
+                    online.</figcaption>
 
 
-                    <div class="alert alert-info" role="alert">
-                        For help with the guidance on this page please email us at
-                        <a href="mailto:judgments@nationalarchives.gov.uk">judgments@nationalarchives.gov.uk</a>
-                      </div>
+                <div class="alert alert-info" role="alert">
+                    For help with the guidance on this page please email us at
+                    <a href="mailto:judgments@nationalarchives.gov.uk">judgments@nationalarchives.gov.uk</a>
+                </div>
 
 
             </div>
@@ -182,8 +199,8 @@
                             class="nav-link p-0 text-muted">Legislation</a></li>
                     <li class="nav-item mb-2"><a href="https://www.judiciary.uk/"
                             class="nav-link p-0 text-muted">Judiciary</a></li>
-                            <li class="nav-item mb-2"><a href="accessibility_statement.html"
-                                class="nav-link p-0 text-muted">Accessibility statement</a></li>
+                    <li class="nav-item mb-2"><a href="accessibility_statement.html"
+                            class="nav-link p-0 text-muted">Accessibility statement</a></li>
                 </ul>
             </div>
 
@@ -196,9 +213,10 @@
                     <li class="nav-item mb-2 contact-text">Help with uploading your document<a
                             href="mailto:tdr@nationalarchives.gov.uk"
                             class="nav-link p-0 text-muted">tdr@nationalarchives.gov.uk</a></li>
-<li class="nav-item mb-2 contact-text">For any other assistance: <a
+                    <li class="nav-item mb-2 contact-text">For any other assistance: <a
                             href="mailto:judgments@nationalarchives.gov.uk"
-                            class="nav-link p-0 text-muted">judgments@nationalarchives.gov.uk</a></li>                </ul>
+                            class="nav-link p-0 text-muted">judgments@nationalarchives.gov.uk</a></li>
+                </ul>
             </div>
         </div>
     </footer>

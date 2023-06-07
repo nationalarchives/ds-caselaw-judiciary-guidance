@@ -265,3 +265,7 @@ em {
 h2, h4, h3 {
     padding-top: 1rem !important;
 }
+
+li {
+    padding-bottom: 1rem;
+}

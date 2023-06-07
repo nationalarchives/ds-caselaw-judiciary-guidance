@@ -269,3 +269,41 @@ h2, h4, h3 {
 li {
     padding-bottom: 1rem;
 }
+
+.mobile-nav-section {
+    border-top: 2px solid #dddddd;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+    font-size: 1.25rem;
+    padding-left: 20px;
+}
+
+
+.nav-link-mobile {
+    color: #037091;
+    text-decoration: none;
+    padding-left: 35px;
+    line-height: 24px;
+}
+
+
+.nav-link-mobile a:hover {
+    text-decoration:underline;
+}
+
+
+a.nav-link-mobile::before {
+    content: url(../assets/images/chevron-blue-closed.svg);
+    display: inline-block;
+    width: 8%;
+    vertical-align: top;
+    margin-top: 0.2rem;
+    height: 1rem;
+    left: 10px;
+    position: absolute;
+}
+
+.nav-link-mobile.active {
+    font-weight: bold;
+}
+

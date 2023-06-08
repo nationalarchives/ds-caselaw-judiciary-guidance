@@ -391,6 +391,7 @@ button:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
+  margin: 10px;
 }
 
 ::-moz-focus-inner {

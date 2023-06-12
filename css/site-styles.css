@@ -266,6 +266,12 @@ h2, h4, h3 {
     padding-top: 1rem !important;
 }
 
+h4 {
+    font-weight: 600 !important;
+
+}
+
+
 li {
     padding-bottom: 1rem;
 }

@@ -7,8 +7,8 @@
   <meta name="description" content="" />
   <meta name="author" content="The National Archives" />
   <title>
-    Using web view in Word &ndash; Judiciary guidance for the Find case law
-    service from The National Archives
+    Footnotes &ndash; Judiciary guidance for the Find case law service from
+    The National Archives
   </title>
   <!-- Favicon
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />-->
@@ -54,8 +54,8 @@
             href="rubric_and_content_warnings.html">Rubric &amp; Content warnings</a>
         </div>
         <a class="list-group-item list-group-item-action group-primary list-group-item-light p-3 collapsed"
-          data-bs-toggle="collapse" href="#collapseBodyformat" aria-expanded="false">Body formatting</a>
-        <div class="collapse" id="collapseBodyformat" style="side-nav-secondary">
+          data-bs-toggle="collapse" href="#collapseBodyformat" aria-expanded="true">Body formatting</a>
+        <div class="collapse show" id="collapseBodyformat" style="side-nav-secondary">
           <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
             href="fonts.html">Fonts</a>
           <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
@@ -70,13 +70,13 @@
             href="tables.html">Tables</a>
           <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
             href="redactions.html">Redactions</a>
-            <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3 active"
             href="redactions.html">Footnotes</a>
         </div>
         <a class="list-group-item list-group-item-action group-primary list-group-item-light p-3 collapsed"
-          data-bs-toggle="collapse" href="#collapseGeneral" aria-expanded="true">General styling tips</a>
-        <div class="collapse show" id="collapseGeneral" style="side-nav-secondary">
-          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3 active"
+          data-bs-toggle="collapse" href="#collapseGeneral" aria-expanded="false">General styling tips</a>
+        <div class="collapse" id="collapseGeneral" style="side-nav-secondary">
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
             href="word_web_view.html">Using web view in Word</a>
           <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
             href="alignment.html">Alignment</a>
@@ -150,11 +150,11 @@
                 <a class="nav-link-mobile" href="redactions.html">Redactions</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link-mobile" href="footnotes.html">Footnotes</a>
+                <a class="nav-link-mobile active" href="footnotes.html">Footnotes</a>
               </li>
               <li class="mobile-nav-section">General styling tips</li>
               <li class="nav-item">
-                <a class="nav-link-mobile active" href="word_web_view.html">Using web view in Word</a>
+                <a class="nav-link-mobile" href="word_web_view.html">Using web view in Word</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link-mobile" href="alignment.html">Alignment</a>
@@ -175,26 +175,96 @@
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="./">Home</a></li>
           <li class="breadcrumb-item active" aria-current="page">
-            Using web view in Word
+            Redactions
           </li>
         </ol>
       </nav>
 
       <div class="main-content container-fluid w-md-80">
-        <h1 class="mt-4">Using the web view preview in Word</h1>
+        <h1 class="mt-4">Footnotes</h1>
 
         <p>
-          Before uploading a judgment, we recommend looking at it in web view.
-          This can give you a bit more of an impression of how the document
-          will be translated on the website. Web view can be found in the
-          bottom right hand corner of Word, by the zoom in zoom out buttons.
+          If your judgment/decision requires footnotes, we recommend using either the
+Footnote or Endnote function in Word. Whether you choose footnotes or endnotes,
+please use that system consistently throughout the document.
         </p>
-        <img class="example-image img-fluid" src="assets/images/content/web-view-example-1.png"
-          alt="Location of Web view tool in MS Word" />
+
+        <p>
+          <em>Please note</em>, in the web version of the document, all footnotes will appear at the end
+of the judgment/decision. In the PDF version, they will appear as they do in the Word
+document.
+        </p>
+
+        <h4>Where to find the footnote/endnote functions</h4>
+
+        <img class="example-image img-fluid" src="assets/images/content/footnotes-example-1.png"
+        alt="MS Word screenshot showing menu location for footnotes."/>
+
+      <figcaption>
+        The Footnote and Endnote function can be found under the Reference section in Word.
+      </figcaption>
+
+        <h4>Example of correctly formatted footnotes</h4>
+
+        <p>
+          <a href="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2023/458">
+            Digital Growth Experts Ltd v Information Commissioner [2023] UKFTT 458 (GRC)</a>
+        </p>
+        <p>In this decision, a footnote has been used at paragraph at paragraph 22:</p>
+
+        <img class="example-image img-fluid" src="assets/images/content/footnotes-example-2.png"
+          alt="An example of a footnote being displayed on a document using the MS Word footnote format." />
+
         <figcaption>
-          Using the web view tool in Word will provide a better preview of how
-          the document will display when online.
+          The footnote in this example was created using the Footnote function in Word.
         </figcaption>
+
+        <p>
+          When the decision appears online, the parser can recognise that this is a footnote as
+it has been created using the Footnote function, and so can move it to the end of the
+decision:
+        </p>
+
+        <img class="example-image img-fluid" src="assets/images/content/footnotes-example-3.png"
+          alt="A footnote on a document shown in the correct position at the bottom of the page." />
+
+        <figcaption>
+          The parser has picked up the footnote and moved it to the bottom of the web version of the decision.
+        </figcaption>
+
+        <h4>Example of incorrectly formatted footnotes</h4>
+
+        <p>
+          <a href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2021/2462">
+            Digital Capital Limited v Genesis Mining Iceland E.H.F. [2021] EWHC 2462 (Comm)</a>
+        </p>
+        <p>In this judgment, a footnote has been added at paragraph 47. However, it has been
+          placed in manually rather than using the footnote function.</p>
+
+        <img class="example-image img-fluid" src="assets/images/content/footnotes-example-4.png"
+        alt="Example of a manually placed footnote in a MS Word document."/>
+
+      <figcaption>
+        This footnote at paragraph 47 has been created manually.
+      </figcaption>
+
+        <p>
+          As the footnote has been placed manually, the parser cannot recognise it properly
+and so the footnote appears like normal text:
+        </p>
+
+        <img class="example-image img-fluid" src="assets/images/content/footnotes-example-5.png"
+        alt="Example of a the same manually placed footnote in the web view, the parser cannot place manually added footnotes in the correct place."/>
+
+      <figcaption>
+        In the web version of the judgment, the footnote is appearing between two
+paragraphs rather than at the end of the judgment.
+      </figcaption>
+
+
+
+
+
 
         <div class="alert alert-info" role="alert">
           For help with the guidance on this page please email us at

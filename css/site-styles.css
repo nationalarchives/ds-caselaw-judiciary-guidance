@@ -266,7 +266,7 @@ h2, h4, h3 {
     padding-top: 1rem !important;
 }
 
-h4 {
+h4, h5 {
     font-weight: 600 !important;
 
 }
@@ -301,12 +301,12 @@ li {
 a.nav-link-mobile::before {
     content: url(../assets/images/chevron-blue-closed.svg);
     display: inline-block;
-    width: 8%;
     vertical-align: top;
     margin-top: 0.2rem;
     height: 1rem;
     left: 10px;
     position: absolute;
+    width: 26px;
 }
 
 .nav-link-mobile.active {

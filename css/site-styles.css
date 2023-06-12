@@ -313,3 +313,8 @@ a.nav-link-mobile::before {
     font-weight: bold;
 }
 
+.single {
+    
+    border-top: 2px solid #dddddd;
+padding-top: 1rem;
+}

@@ -314,7 +314,10 @@ a.nav-link-mobile::before {
 }
 
 .single {
-    
     border-top: 2px solid #dddddd;
-padding-top: 1rem;
+    padding-top: 1rem;
+}
+
+.col-lg-4 {
+    width: 100% !important;
 }

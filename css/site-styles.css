@@ -321,3 +321,45 @@ a.nav-link-mobile::before {
 .col-lg-4 {
     width: 100% !important;
 }
+
+.pre-footer {
+    background-color: #efefef !important;
+    text-align: center !important;
+    padding: 2rem 0;
+}
+
+
+.pre-footer h2 {
+    padding-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+
+.cta-button {
+    background-color: #037091;
+    text-decoration: none;
+    font-weight: 700;
+    border: 0;
+    padding: 1rem 1.3rem;
+    display: inline-block;
+    margin-top: 1em;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #037091 !important;
+    border: 2px solid #037091;
+}
+
+
+.cta-button:focus, .cta-button:hover {
+    outline: 5px solid #134571;
+    outline-offset: 0;
+    z-index: 999;
+    color: #ffffff !important;
+    background-color: #134571;
+    outline-color: #134571;
+    border-color: #134571;
+    text-decoration: underline;
+    outline-offset: 0.2rem;
+}

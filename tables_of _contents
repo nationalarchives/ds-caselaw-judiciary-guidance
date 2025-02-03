@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="The National Archives" />
+  <title>
+    Fonts formatting &ndash; Judiciary guidance for the Find case law service
+    from The National Archives
+  </title>
+  <!-- Favicon
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />-->
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/site-styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="main-header">
+    <div class="main-header-title">
+      <h1 class="display-4">Formatting and accessibility guidance</h1>
+      <p class="header-strapline">for publishing to the Find case law service</p>
+    </div>
+    <div class="logo-block">
+      <p class="logo-block-text">Delivered by</p>
+      <img src="assets/images/The-National-Archives-logo-reversed-long.svg" alt="The National Archives" />
+    </div>
+  </div>
+
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar-->
+    <div class="border-end bg-white" id="sidebar-wrapper">
+      <div class="sidebar-heading border-bottom bg-light">
+        Guidance sections
+      </div>
+      <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="./">Home</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="about_this_guidance.html">About this guidance</a>
+        <a class="list-group-item list-group-item-action group-primary list-group-item-light p-3 collapsed"
+          data-bs-toggle="collapse" href="#collapseFrontpage" aria-expanded="false">Front page formatting</a>
+        <div class="collapse" id="collapseFrontpage" style="side-nav-secondary">
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="headers_and_footers.html">Headers & footers</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="court_crest_and_details.html">Court crest & court details</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="ncn.html">NCN</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="parties.html">Parties</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="rubric_and_content_warnings.html">Rubric &amp; content warnings</a>
+        </div>
+        <a class="list-group-item list-group-item-action group-primary list-group-item-light p-3 collapsed"
+          data-bs-toggle="collapse" href="#collapseBodyformat" aria-expanded="true">Body formatting</a>
+        <div class="collapse show" id="collapseBodyformat" style="side-nav-secondary">
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3 active"
+            href="fonts.html">Fonts</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="headings.html">Headings</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="paragraphs.html">Paragraphs</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="quotations.html">Quotations</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="images.html">Images</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="tables.html">Tables</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="redactions.html">Redactions</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="footnotes.html">Footnotes</a>
+        </div>
+        <a class="list-group-item list-group-item-action group-primary list-group-item-light p-3 collapsed"
+          data-bs-toggle="collapse" href="#collapseGeneral" aria-expanded="false">General styling tips</a>
+        <div class="collapse" id="collapseGeneral" style="side-nav-secondary">
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="word_web_view.html">Using web view in Word</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="alignment.html">Alignment</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="indentation.html">Indentation</a>
+        </div>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3"
+          href="supplementary_documents.html">Supplementary documents</a>
+        <a class="list-group-item list-group-item-action group-primary list-group-item-light p-3 collapsed"
+          data-bs-toggle="collapse" href="#collapseAccessibility" aria-expanded="false">Accessibility</a>
+
+        <div class="collapse" id="collapseAccessibility" style="side-nav-secondary">
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="alternative_text.html">Alternative text</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="table_headers.html">Table headers</a>
+          <a class="list-group-item list-group-item-action side-nav-item-secondary sub-item list-group-item-light p-3"
+            href="table_captions.html">Table captions</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page content wrapper-->
+
+    <div id="page-content-wrapper">
+      <!-- Top navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom d-md-none p-0 w-100">
+        <div class="container-fluid m-0 p-0 w-100">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item"><a class="nav-link-mobile" href="./">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="about_this_guidance.html">About this guidance</a>
+              </li>
+              <li class="mobile-nav-section">Front page formatting</li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="headers_and_footers.html">Headers & footers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="court_crest_and_details.html">Court crest and court details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="ncn.html">NCN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="parties.html">Parties</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="rubric_and_content_warnings.html">Rubric and content warnings</a>
+              </li>
+
+              <li class="mobile-nav-section">Body formatting</li>
+              <li class="nav-item">
+                <a class="nav-link-mobile active" href="fonts.html">Fonts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="headings.html">Headings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="paragraphs.html">Paragraphs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="quotations.html">Quotations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="images.html">Images</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="tables.html">Tables</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="redactions.html">Redactions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="footnotes.html">Footnotes</a>
+              </li>
+              <li class="mobile-nav-section">General styling tips</li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="word_web_view.html">Using web view in Word</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="alignment.html">Alignment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="indentation.html">Indentation</a>
+              </li>
+              <li class="nav-item single">
+                <a class="nav-link-mobile" href="supplementary_documents.html">Supplementary documents</a>
+              </li>
+              <li class="mobile-nav-section">Accessibility</li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="alternative_text.html">Alternative text</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="table_headers.html">Table headers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-mobile" href="table_captions.html">Table captions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Page content-->
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Fonts formatting
+          </li>
+        </ol>
+      </nav>
+
+      <div class="main-content container-fluid w-md-80">
+        <h1 class="mt-4">Fonts formatting</h1>
+        <p>To help with the readability, please use the same font throughout a
+          judgment or decision. We recommend using Times New Roman.</p>
+
+         <p>Please note, to ensure consistency on the website, online versions of judgments/decisions will be rendered in Times New Roman.</p>
+
+        <h4>Example of mixed fonts</h4>
+
+        <p>
+          <a href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2022/1369">
+            John Michael Gee & Anor v The Estate of John Richard Gee & Anor [2022] EWHC 1369 (Ch)</a>
+        </p>
+        
+        <img class="example-image img-fluid" src="assets/images/content/font-example-1.png"
+          alt="An example of different fonts being used within a paragraph" />
+        <figcaption>Inconsistent use of fonts and font sizing.</figcaption>
+
+        <div class="alert alert-info" role="alert">
+          For help with the guidance on this page please email us at
+          <a href="mailto:judgments@nationalarchives.gov.uk">judgments@nationalarchives.gov.uk</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pre-footer">
+    <h2>Help us improve this guidance</h2>
+    <a target="_blank" aria-label="Complete our short survey – opens in new tab" rel="noreferrer noopener" class="cta-button" href="https://corexmsnp4n42lf2kht3.qualtrics.com/jfe/form/SV_bjRxBDr5pD8C6B8">Complete our
+      short survey</a>
+  </div>
+
+  <footer class="py-5 border-top">
+    <div class="row">
+      <div class="col">
+        <h5>Quick links</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="https://caselaw.nationalarchives.gov.uk/" class="nav-link p-0 text-muted">Find case law</a>
+          </li>
+
+          <li class="nav-item mb-2">
+            <a href="https://www.legislation.gov.uk/" class="nav-link p-0 text-muted">Legislation</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="https://www.judiciary.uk/" class="nav-link p-0 text-muted">Judiciary</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="accessibility_statement.html" class="nav-link p-0 text-muted">Accessibility statement</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h5>Contact us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            Help with obtaining an NCN: <a href="mailto:JudgmentsHelpdesk@judiciary.uk"
+              class="nav-link p-0 text-muted">JudgmentsHelpdesk@judiciary.uk</a>
+          </li>
+          <li class="nav-item mb-2 contact-text">
+            Help with uploading your document: <a href="mailto:tdr@nationalarchives.gov.uk"
+              class="nav-link p-0 text-muted">tdr@nationalarchives.gov.uk</a>
+          </li>
+          <li class="nav-item mb-2 contact-text">
+            For any other assistance:
+            <a href="mailto:judgments@nationalarchives.gov.uk"
+              class="nav-link p-0 text-muted">judgments@nationalarchives.gov.uk</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src=" https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js "></script>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

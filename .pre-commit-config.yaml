@@ -1,9 +1,9 @@
-exclude: courts_schema_autogen\.py
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
       - id: check-added-large-files
+        args: ["--maxkb=1000"]
       - id: check-case-conflict
       - id: check-json
       - id: check-merge-conflict
@@ -19,8 +19,14 @@ repos:
     rev: v4.0.0-alpha.8
     hooks:
       - id: prettier
-        types_or: [yaml, json, xml, markdown, scss, javascript]
-        exclude: courts\.md|autogen/\.*|schemas/.*\.md
+        types_or: [yaml, markdown, css, javascript]
+
+  - repo: https://github.com/boidolr/pre-commit-images
+    rev: v1.10.0
+    hooks:
+      - id: optimize-png
+      - id: optimize-svg
+      - id: optimize-jpg
 
   - repo: https://github.com/renovatebot/pre-commit-hooks
     rev: 43.136.1

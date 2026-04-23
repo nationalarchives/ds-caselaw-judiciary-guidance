@@ -22,7 +22,7 @@ repos:
         types_or: [yaml, markdown, css, javascript]
 
   - repo: https://github.com/boidolr/pre-commit-images
-    rev: v1.10.0
+    rev: v1.12.0
     hooks:
       - id: optimize-png
       - id: optimize-svg

@@ -29,7 +29,7 @@ repos:
       - id: optimize-jpg
 
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 43.138.1
+    rev: 43.138.3
     hooks:
       - id: renovate-config-validator
         args: [--strict]

@@ -19,7 +19,7 @@ repos:
     rev: v4.0.0-alpha.8
     hooks:
       - id: prettier
-        types_or: [yaml, markdown, css, javascript]
+        types_or: [yaml, markdown, css, javascript, html]
 
   - repo: https://github.com/boidolr/pre-commit-images
     rev: v1.12.0
